@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmt_2_m_10_github_io=self.webpackChunkmt_2_m_10_github_io||[]).push([[3997],{5293:t=>{t.exports=JSON.parse('{"permalink":"/tags/aws","page":1,"postsPerPage":10,"totalPages":1,"totalCount":5,"blogDescription":"mt2m10 powered blog!","blogTitle":"mt2m10 blog!"}')}}]);

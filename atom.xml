@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mt2m10.github.io/</id>
     <title>mt2m10 Blog</title>
-    <updated>2022-07-24T11:05:00.000Z</updated>
+    <updated>2022-08-29T22:36:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mt2m10.github.io/"/>
     <subtitle>mt2m10 Blog</subtitle>
     <icon>https://mt2m10.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Docusaurus]]></title>
+        <id>/2022/08/30/_1</id>
+        <link href="https://mt2m10.github.io/2022/08/30/_1"/>
+        <updated>2022-08-29T22:36:00.000Z</updated>
+        <summary type="html"><![CDATA[Facebook 製のドキュメント生成ツールのDocusaurusにサイトをリニューアルしました。]]></summary>
+        <content type="html"><![CDATA[<p>Facebook 製のドキュメント生成ツールの<a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer">Docusaurus</a>にサイトをリニューアルしました。</p><p>このサイトはあまり運用はしていないが定期的に UI を変えたくなるんですよね。前回は Next.js 製だったけど、UI を自分で作るのが面倒でモチベーションが下がってきました。もう少しお手軽にできるものを探していたところに、Docusaurus が目に入ったので試しに導入しました。</p><p>ブログやドキュメントの追加のしやすさは、とてもよいと感じています。オリジナルのページを作成したいときは<code>src/pages</code>配下でゴニョゴニョすればできそうだしカスタマイズ性も OK。カスタマイズには React.js の知識は必要だけど知ってればそんなに難しくない(はず)。</p><p>いろいろやれることが多いので docs 見ていろいろ試していこうと思います。</p>]]></content>
+        <author>
+            <name>mt2m10</name>
+            <uri>https://twitter.com/mt2m10</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Wi-Fi環境を「メッシュWi-Fi」にして、おまけで「v6プラス」にも対応してみた]]></title>
         <id>/2022/07/24/_1</id>

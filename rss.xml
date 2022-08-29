@@ -4,10 +4,18 @@
         <title>mt2m10 Blog</title>
         <link>https://mt2m10.github.io/</link>
         <description>mt2m10 Blog</description>
-        <lastBuildDate>Sun, 24 Jul 2022 11:05:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 Aug 2022 22:36:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[Docusaurus]]></title>
+            <link>https://mt2m10.github.io/2022/08/30/_1</link>
+            <guid>/2022/08/30/_1</guid>
+            <pubDate>Mon, 29 Aug 2022 22:36:00 GMT</pubDate>
+            <description><![CDATA[Facebook 製のドキュメント生成ツールのDocusaurusにサイトをリニューアルしました。]]></description>
+            <content:encoded><![CDATA[<p>Facebook 製のドキュメント生成ツールの<a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer">Docusaurus</a>にサイトをリニューアルしました。</p><p>このサイトはあまり運用はしていないが定期的に UI を変えたくなるんですよね。前回は Next.js 製だったけど、UI を自分で作るのが面倒でモチベーションが下がってきました。もう少しお手軽にできるものを探していたところに、Docusaurus が目に入ったので試しに導入しました。</p><p>ブログやドキュメントの追加のしやすさは、とてもよいと感じています。オリジナルのページを作成したいときは<code>src/pages</code>配下でゴニョゴニョすればできそうだしカスタマイズ性も OK。カスタマイズには React.js の知識は必要だけど知ってればそんなに難しくない(はず)。</p><p>いろいろやれることが多いので docs 見ていろいろ試していこうと思います。</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Wi-Fi環境を「メッシュWi-Fi」にして、おまけで「v6プラス」にも対応してみた]]></title>
             <link>https://mt2m10.github.io/2022/07/24/_1</link>

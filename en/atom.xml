@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mt2m10.github.io/en/</id>
     <title>mt2m10 Blog</title>
-    <updated>2022-08-29T22:36:00.000Z</updated>
+    <updated>2022-08-31T23:36:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mt2m10.github.io/en/"/>
     <subtitle>mt2m10 Blog</subtitle>
     <icon>https://mt2m10.github.io/en/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[4Kモニターとコンパクトデスクトップを購入]]></title>
+        <id>/2022/09/01/_1</id>
+        <link href="https://mt2m10.github.io/en/2022/09/01/_1"/>
+        <updated>2022-08-31T23:36:00.000Z</updated>
+        <summary type="html"><![CDATA[Amazon セールと Lenovo セールのタイミングでモニターと PC を購入しました。]]></summary>
+        <content type="html"><![CDATA[<p>Amazon セールと Lenovo セールのタイミングでモニターと PC を購入しました。</p><ul><li><a href="https://www.amazon.co.jp/gp/product/B08P33YYXT/" target="_blank" rel="noopener noreferrer">Uperfect 4K 15.6 インチ</a></li><li><a href="https://www.lenovo.com/jp/ja/d/deals/promo-offers/" target="_blank" rel="noopener noreferrer">ThinkCentre M75q Tiny Gen2</a></li></ul><p>購入の際に次の点を気にして探しました。</p><ol><li>モニターの解像度が 2K 以上</li><li>メモリー 16GB 以上</li><li>CPU はそこそこ</li><li>GPU はいらない</li><li>できれば持ち運びたい</li></ol><p>ラップトップだと少し割高だったので、数年前から気になってた ThinkCentre M75q Tiny Gen2 に決めました。持ち運びはできないけど、持ち運ぶ機会もかなり少ないので、そこは妥協しています。</p><p>モニターは一応家に 1 つあるんですが、リビングで少し PC をいじりたいときに使いたかったので、小さめのモニターを購入しました。ほんとは<a href="https://www.amazon.co.jp//dp/B0983381Z9" target="_blank" rel="noopener noreferrer">JAPANNEXT のやつ</a>がほしかった...</p><p>こんな感じでラップトップ感覚でモニターを置いています。
+<img loading="lazy" src="https://i.gyazo.com/2518c5b923f6978b5b53ae60009b7742.jpg" class="img_ev3q"></p><p>PC はメモリー 8GB ですが、16GB のメモリーも買って増設しています。なのでメモリー 24GB です。不足はないかなー思います。足りなければ、16GB をもう 1 枚買います。</p><p>Wifi の動作が非常に不安定です。Wi-Fi の状態を見てると継続時間が数分～ 10 数分で切断されてしまいます。ドライバーの更新とかいろいろ試してるんだけど、期待するほど解消されず。ストレスがたまるほど切断が多い場合は、Wi-Fi カードの交換をしてみようかなと思います。Wi-Fi6 非対応なのでちょうどいいし。</p><p>そんなところです。</p>]]></content>
+        <author>
+            <name>mt2m10</name>
+            <uri>https://twitter.com/mt2m10</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Docusaurus]]></title>
         <id>/2022/08/30/_1</id>

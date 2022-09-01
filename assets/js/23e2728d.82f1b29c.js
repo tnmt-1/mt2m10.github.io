@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmt_2_m_10_github_io=self.webpackChunkmt_2_m_10_github_io||[]).push([[6573],{4295:a=>{a.exports=JSON.parse('{"label":"aws","permalink":"/tags/aws","allTagsPath":"/tags","count":5}')}}]);

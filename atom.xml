@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mt2m10.github.io/</id>
     <title>mt2m10 Blog</title>
-    <updated>2022-08-31T23:36:00.000Z</updated>
+    <updated>2022-09-02T13:39:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mt2m10.github.io/"/>
     <subtitle>mt2m10 Blog</subtitle>
     <icon>https://mt2m10.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Intel(R) Wireless-AC 9260 で頻繁に切断されるときの暫定対処]]></title>
+        <id>/2022/09/02/_1</id>
+        <link href="https://mt2m10.github.io/2022/09/02/_1"/>
+        <updated>2022-09-02T13:39:00.000Z</updated>
+        <summary type="html"><![CDATA[先日、購入した ThinkCentre M75q Tiny Gen2 には Intel(R) Wireless-AC 9260 が取り付けられています。この機能によって Wi-Fi と BlueTooth が使えるんですが、Wi-Fi の動作が非常におかしい。数分ごとに Wi-Fi が切れてしまい、1 分ぐらい経つと再接続します。これの繰り返し。]]></summary>
+        <content type="html"><![CDATA[<p>先日、購入した ThinkCentre M75q Tiny Gen2 には Intel(R) Wireless-AC 9260 が取り付けられています。この機能によって Wi-Fi と BlueTooth が使えるんですが、Wi-Fi の動作が非常におかしい。数分ごとに Wi-Fi が切れてしまい、1 分ぐらい経つと再接続します。これの繰り返し。</p><p>ストレスがたまりまくるので調査結果と暫定対処したことをまとめます。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="環境">環境<a class="hash-link" href="#環境" title="見出しへの直接リンク">​</a></h2><ul><li>ThinkCentre M75q Tiny Gen2</li><li>Windows 11 Home 21H2 (OS ビルド: 22000.918)</li><li>Intel(R) Wireless-AC 9260</li><li>AMD Ryzen 5 PRO 5650GE</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="結果">結果<a class="hash-link" href="#結果" title="見出しへの直接リンク">​</a></h2><p>ネットワークのプロパティにある、<code>802.11n/ac ワイヤレスモード</code> を<code>1. 無効にする</code>。</p><p><img loading="lazy" src="https://i.gyazo.com/2f127fa955fd049466bce0b60630a632.png" alt="ネットワークのプロパティ" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="調査内容">調査内容<a class="hash-link" href="#調査内容" title="見出しへの直接リンク">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-lenovo-のヒント集の解決策をやる">1. Lenovo のヒント集の解決策をやる<a class="hash-link" href="#1-lenovo-のヒント集の解決策をやる" title="見出しへの直接リンク">​</a></h3><p><a href="https://support.lenovo.com/jp/ja/solutions/ht502846-frequent-drops-or-intermittent-wireless-connection-windows-7-8-10" target="_blank" rel="noopener noreferrer">Wi-Fi 接続が頻繁に落ちる/途切れる - Window 7/ 8 /10</a></p><p>方法 1,2,3,4,5,8 を試してみました（6,7 は自分の環境では実施できなかったためやってない）。結果的に<code>方法 8</code>で対応したんですが、デメリットとして回線速度の低下があるので、もう少し試してみます。</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-最新ドライバーのインストール">2. 最新ドライバーのインストール<a class="hash-link" href="#2-最新ドライバーのインストール" title="見出しへの直接リンク">​</a></h3><p><a href="https://www.intel.co.jp/content/www/jp/ja/products/sku/99445/intel-wirelessac-9260/downloads.html" target="_blank" rel="noopener noreferrer">インテル ® Wireless-AC 9260</a></p><p>インテル公式ページからドライバーをダウンロードしてインストールしました。バージョンは<code>22.160.0</code>です。切断されるまでの時間が数分伸びましたが、ほとんど改善されませんでした。</p><hr><p>あとは、ドライバーを戻したりいろんな設定を ON/OFF にしたりして検証しましたが、改善されませんでした。なので、<a href="https://support.lenovo.com/jp/ja/solutions/ht502846-frequent-drops-or-intermittent-wireless-connection-windows-7-8-10" target="_blank" rel="noopener noreferrer">Wi-Fi 接続が頻繁に落ちる/途切れる - Window 7/ 8 /10</a>にある<code>方法 8</code>の方法で対応しました。</p><p>デメリットとして、5GHz 帯が利用不可となるため、通信速度が最大で 54Mbps の速度になります。ベストエフォートなので実際にはもう少し低速になると思います。自分はそんなに帯域を使うことはしないので、しばらくはこれで様子見しようと思います。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="補足">補足<a class="hash-link" href="#補足" title="見出しへの直接リンク">​</a></h2><p><strong>イベントビューアー</strong></p><p><img loading="lazy" src="https://i.gyazo.com/def9baa8e51754ecbe39d4677f5591b4.png" alt="イベントビューアー" class="img_ev3q"></p><p>イベントビューアーを見ると、キーワードが観測できました。</p><ul><li>Netwtw08</li><li>イベント ID: 5010</li></ul><p>検索すると似たような事象で困ってる人はいるんだけど、誰一人解決してないんだよなー</p><p>Intel(R) Wireless-AC 9260 は Wi-Fi6 非対応なので、そもそも少し不満だったから、そのうち新しい Wi-Fi カードを買おうと思います。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="参考">参考<a class="hash-link" href="#参考" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://zakkicho.jp/2019/08/14/prestige-ps42%E3%81%A7%E7%84%A1%E7%B7%9Alan%E9%80%9A%E4%BF%A1%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E5%95%8F%E9%A1%8C-%E3%81%9D%E3%81%AE2/" target="_blank" rel="noopener noreferrer">PRESTIGE PS42 で無線 LAN 通信ができない問題 その 2</a></li></ul>]]></content>
+        <author>
+            <name>mt2m10</name>
+            <uri>https://twitter.com/mt2m10</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[4Kモニターとコンパクトデスクトップを購入]]></title>
         <id>/2022/09/01/_1</id>

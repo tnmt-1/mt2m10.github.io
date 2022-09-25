@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmt_2_m_10_github_io=self.webpackChunkmt_2_m_10_github_io||[]).push([[1287],{8136:a=>{a.exports=JSON.parse('{"label":"apigateway","permalink":"/blog/tags/apigateway","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmt_2_m_10_github_io=self.webpackChunkmt_2_m_10_github_io||[]).push([[5653],{1362:a=>{a.exports=JSON.parse('{"label":"MeCab","permalink":"/blog/tags/me-cab","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmt_2_m_10_github_io=self.webpackChunkmt_2_m_10_github_io||[]).push([[1626],{1303:e=>{e.exports=JSON.parse('{"label":"SQLAlchemy","permalink":"/en/blog/tags/sql-alchemy","allTagsPath":"/en/blog/tags","count":1}')}}]);

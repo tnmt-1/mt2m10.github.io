@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmt_2_m_10_github_io=self.webpackChunkmt_2_m_10_github_io||[]).push([[5216],{8971:e=>{e.exports=JSON.parse('{"label":"streaming","permalink":"/en/blog/tags/streaming","allTagsPath":"/en/blog/tags","count":1}')}}]);

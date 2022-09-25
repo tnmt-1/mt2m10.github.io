@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmt_2_m_10_github_io=self.webpackChunkmt_2_m_10_github_io||[]).push([[8772],{5317:e=>{e.exports=JSON.parse('{"permalink":"/en/blog/tags/pyenv","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"blogDescription":"mt2m10 powered blog!","blogTitle":"mt2m10 blog!"}')}}]);

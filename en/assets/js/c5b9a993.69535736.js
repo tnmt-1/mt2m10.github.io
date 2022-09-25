@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmt_2_m_10_github_io=self.webpackChunkmt_2_m_10_github_io||[]).push([[1851],{7779:e=>{e.exports=JSON.parse('{"label":"pyenv","permalink":"/en/blog/tags/pyenv","allTagsPath":"/en/blog/tags","count":1}')}}]);

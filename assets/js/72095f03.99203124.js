@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmt_2_m_10_github_io=self.webpackChunkmt_2_m_10_github_io||[]).push([[9028],{825:e=>{e.exports=JSON.parse('{"permalink":"/blog/page/15","page":15,"postsPerPage":1,"totalPages":58,"totalCount":58,"previousPage":"/blog/page/14","nextPage":"/blog/page/16","blogDescription":"mt2m10 powered blog!","blogTitle":"mt2m10 blog!"}')}}]);

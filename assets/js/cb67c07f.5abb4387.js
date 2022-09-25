@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmt_2_m_10_github_io=self.webpackChunkmt_2_m_10_github_io||[]).push([[6998],{2502:e=>{e.exports=JSON.parse('{"label":"brew","permalink":"/tags/brew","allTagsPath":"/tags","count":1}')}}]);

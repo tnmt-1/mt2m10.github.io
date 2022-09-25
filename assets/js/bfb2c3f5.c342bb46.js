@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmt_2_m_10_github_io=self.webpackChunkmt_2_m_10_github_io||[]).push([[8102],{767:e=>{e.exports=JSON.parse('{"label":"codeigniter4","permalink":"/blog/tags/codeigniter-4","allTagsPath":"/blog/tags","count":1}')}}]);
